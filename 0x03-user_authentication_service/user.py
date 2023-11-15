@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+"""class user for orm"""
+
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
